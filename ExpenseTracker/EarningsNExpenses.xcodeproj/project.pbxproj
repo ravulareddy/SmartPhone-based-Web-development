@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0B99331DFACFB90017A4FF /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B99311DFACFB90017A4FF /* SignUpViewController.m */; };
+		4D0B99341DFACFB90017A4FF /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B99321DFACFB90017A4FF /* SignInViewController.m */; };
+		4D0B99371DFAD78E0017A4FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B99351DFAD78E0017A4FF /* ViewController.m */; };
+		4D0B99391DFADA770017A4FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99381DFADA770017A4FF /* GoogleService-Info.plist */; };
+		4D0B993C1DFDC0710017A4FF /* button_register-now.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B993B1DFDC0710017A4FF /* button_register-now.png */; };
+		4D0B993E1DFDC2040017A4FF /* registerNow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B993D1DFDC2040017A4FF /* registerNow.png */; };
+		4D0B99401DFDC48D0017A4FF /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B993F1DFDC48D0017A4FF /* Login.png */; };
+		4D0B99441DFDD4240017A4FF /* signUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99431DFDD4240017A4FF /* signUp.png */; };
+		4D0B99481DFE040D0017A4FF /* homepage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99461DFE040C0017A4FF /* homepage.jpg */; };
+		4D0B994A1DFE05210017A4FF /* homepage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99491DFE05210017A4FF /* homepage1.png */; };
+		4D0B994C1DFE08580017A4FF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B994B1DFE08580017A4FF /* logo.png */; };
+		4D0B994F1DFE0D3E0017A4FF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B994E1DFE0D3E0017A4FF /* HomePageViewController.m */; };
+		4D0B99551DFF690E0017A4FF /* expenses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99521DFF690E0017A4FF /* expenses.png */; };
+		4D0B99571DFF690E0017A4FF /* credit-cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99541DFF690E0017A4FF /* credit-cards.png */; };
+		4D0B99591DFF699D0017A4FF /* wallet-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99581DFF699D0017A4FF /* wallet-plus.png */; };
+		4D0B995B1DFF6A5B0017A4FF /* startBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B995A1DFF6A5B0017A4FF /* startBtn.png */; };
+		4D0B995E1DFF6FFC0017A4FF /* ewallet3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B995C1DFF6FFC0017A4FF /* ewallet3.png */; };
+		4D0B995F1DFF6FFD0017A4FF /* Money.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B995D1DFF6FFC0017A4FF /* Money.png */; };
+		4D0B99621DFF73950017A4FF /* categories.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99601DFF73950017A4FF /* categories.png */; };
+		4D0B99631DFF73950017A4FF /* wallet--minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99611DFF73950017A4FF /* wallet--minus.png */; };
+		4D0B99661DFF74710017A4FF /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99641DFF74710017A4FF /* greenButtonHighlight.png */; };
+		4D0B99671DFF74710017A4FF /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0B99651DFF74710017A4FF /* orangeButtonHighlight.png */; };
+		4D0B996A1DFF879B0017A4FF /* UpadateProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0B99691DFF879B0017A4FF /* UpadateProfileViewController.m */; };
+		4D553CD11E02281D00D85680 /* NSString+Validations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D553CCF1E02281D00D85680 /* NSString+Validations.m */; };
+		4D77F6A11E024FA200495206 /* EarningsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77F6A01E024FA200495206 /* EarningsTableViewController.m */; };
+		4D77F6A41E0394FA00495206 /* EarningsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77F6A31E0394FA00495206 /* EarningsDetailViewController.m */; };
+		4D77F6A71E03A1F800495206 /* AddIncomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77F6A61E03A1F800495206 /* AddIncomeViewController.m */; };
+		4D77F6AA1E03A4CC00495206 /* AddCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D77F6A91E03A4CC00495206 /* AddCategoriesViewController.m */; };
+		4D8757A71DF4B4090071EDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8757A61DF4B4090071EDDB /* main.m */; };
+		4D8757AA1DF4B4090071EDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8757A91DF4B4090071EDDB /* AppDelegate.m */; };
+		4D8757B01DF4B4090071EDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8757AE1DF4B4090071EDDB /* Main.storyboard */; };
+		4D8757B21DF4B4090071EDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8757B11DF4B4090071EDDB /* Assets.xcassets */; };
+		4D8757B51DF4B4090071EDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8757B31DF4B4090071EDDB /* LaunchScreen.storyboard */; };
+		4D8757C01DF4B40A0071EDDB /* EarningsNExpensesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8757BF1DF4B40A0071EDDB /* EarningsNExpensesTests.m */; };
+		4D8757CB1DF4B40A0071EDDB /* EarningsNExpensesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8757CA1DF4B40A0071EDDB /* EarningsNExpensesUITests.m */; };
+		4DE782681E0498510002BD32 /* EarningsDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE782671E0498510002BD32 /* EarningsDashboardViewController.m */; };
+		4DE7826D1E050ACA0002BD32 /* ScanReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE782691E050AC90002BD32 /* ScanReceiptViewController.m */; };
+		4DE7826E1E050ACA0002BD32 /* ExpensesHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7826B1E050AC90002BD32 /* ExpensesHomeViewController.m */; };
+		4DE7829D1E050D540002BD32 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE7829C1E050D540002BD32 /* libstdc++.6.0.9.tbd */; };
+		4DE7829F1E050D610002BD32 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE7829E1E050D610002BD32 /* CoreImage.framework */; };
+		4DF4E4F41E051477002DFF6C /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF4E4F31E051477002DFF6C /* TesseractOCR.framework */; };
+		4DF4E4F61E0514A3002DFF6C /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 4DF4E4F51E0514A3002DFF6C /* tessdata */; };
+		4DF4E4F91E051893002DFF6C /* AddExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4E4F81E051893002DFF6C /* AddExpensesViewController.m */; };
+		4DF4E4FC1E054864002DFF6C /* ViewExpensesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF4E4FB1E054864002DFF6C /* ViewExpensesController.m */; };
+		4DF4E4FD1E056E2B002DFF6C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE782A01E050D6B0002BD32 /* MessageUI.framework */; };
+		5FD31A8EB0668E0445F48784 /* libPods-EarningsNExpenses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508232795D057CD4674F325A /* libPods-EarningsNExpenses.a */; };
+		8EA0455395C11AC02FC08CDE /* libPods-EarningsNExpensesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 432B1F776722C8662099FDA3 /* libPods-EarningsNExpensesUITests.a */; };
+		F92F34E8F232A0A1B12FB8A7 /* libPods-EarningsNExpensesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB970AEEC74EF2E5F210B71 /* libPods-EarningsNExpensesTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8757BC1DF4B40A0071EDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D87579A1DF4B4090071EDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8757A11DF4B4090071EDDB;
+			remoteInfo = EarningsNExpenses;
+		};
+		4D8757C71DF4B40A0071EDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D87579A1DF4B4090071EDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8757A11DF4B4090071EDDB;
+			remoteInfo = EarningsNExpenses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24EF3EDD70F030EEE275DC5A /* Pods-EarningsNExpensesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpensesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpensesTests/Pods-EarningsNExpensesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35DBEC740150E1856B6E998D /* Pods-EarningsNExpenses.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpenses.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpenses/Pods-EarningsNExpenses.debug.xcconfig"; sourceTree = "<group>"; };
+		432B1F776722C8662099FDA3 /* libPods-EarningsNExpensesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarningsNExpensesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0B992F1DFACFB90017A4FF /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		4D0B99301DFACFB90017A4FF /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		4D0B99311DFACFB90017A4FF /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		4D0B99321DFACFB90017A4FF /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		4D0B99351DFAD78E0017A4FF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D0B99361DFAD78E0017A4FF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D0B99381DFADA770017A4FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../FinalProject/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D0B993B1DFDC0710017A4FF /* button_register-now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_register-now.png"; path = "images/button_register-now.png"; sourceTree = "<group>"; };
+		4D0B993D1DFDC2040017A4FF /* registerNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = registerNow.png; path = images/registerNow.png; sourceTree = "<group>"; };
+		4D0B993F1DFDC48D0017A4FF /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login.png; path = images/Login.png; sourceTree = "<group>"; };
+		4D0B99431DFDD4240017A4FF /* signUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signUp.png; path = images/signUp.png; sourceTree = "<group>"; };
+		4D0B99461DFE040C0017A4FF /* homepage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homepage.jpg; path = images/homepage.jpg; sourceTree = "<group>"; };
+		4D0B99491DFE05210017A4FF /* homepage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homepage1.png; path = images/homepage1.png; sourceTree = "<group>"; };
+		4D0B994B1DFE08580017A4FF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		4D0B994D1DFE0D3E0017A4FF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		4D0B994E1DFE0D3E0017A4FF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		4D0B99521DFF690E0017A4FF /* expenses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expenses.png; path = images/expenses.png; sourceTree = "<group>"; };
+		4D0B99541DFF690E0017A4FF /* credit-cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credit-cards.png"; path = "images/credit-cards.png"; sourceTree = "<group>"; };
+		4D0B99581DFF699D0017A4FF /* wallet-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wallet-plus.png"; path = "images/wallet-plus.png"; sourceTree = "<group>"; };
+		4D0B995A1DFF6A5B0017A4FF /* startBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startBtn.png; path = images/startBtn.png; sourceTree = "<group>"; };
+		4D0B995C1DFF6FFC0017A4FF /* ewallet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ewallet3.png; path = images/ewallet3.png; sourceTree = "<group>"; };
+		4D0B995D1DFF6FFC0017A4FF /* Money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Money.png; path = images/Money.png; sourceTree = "<group>"; };
+		4D0B99601DFF73950017A4FF /* categories.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = categories.png; path = images/categories.png; sourceTree = "<group>"; };
+		4D0B99611DFF73950017A4FF /* wallet--minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wallet--minus.png"; path = "images/wallet--minus.png"; sourceTree = "<group>"; };
+		4D0B99641DFF74710017A4FF /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenButtonHighlight.png; path = images/greenButtonHighlight.png; sourceTree = "<group>"; };
+		4D0B99651DFF74710017A4FF /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeButtonHighlight.png; path = images/orangeButtonHighlight.png; sourceTree = "<group>"; };
+		4D0B99681DFF879B0017A4FF /* UpadateProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpadateProfileViewController.h; sourceTree = "<group>"; };
+		4D0B99691DFF879B0017A4FF /* UpadateProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpadateProfileViewController.m; sourceTree = "<group>"; };
+		4D553CCF1E02281D00D85680 /* NSString+Validations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validations.m"; sourceTree = "<group>"; };
+		4D553CD01E02281D00D85680 /* NSString+Validations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validations.h"; sourceTree = "<group>"; };
+		4D77F69F1E024FA200495206 /* EarningsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarningsTableViewController.h; sourceTree = "<group>"; };
+		4D77F6A01E024FA200495206 /* EarningsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarningsTableViewController.m; sourceTree = "<group>"; };
+		4D77F6A21E0394FA00495206 /* EarningsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarningsDetailViewController.h; sourceTree = "<group>"; };
+		4D77F6A31E0394FA00495206 /* EarningsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarningsDetailViewController.m; sourceTree = "<group>"; };
+		4D77F6A51E03A1F800495206 /* AddIncomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddIncomeViewController.h; sourceTree = "<group>"; };
+		4D77F6A61E03A1F800495206 /* AddIncomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddIncomeViewController.m; sourceTree = "<group>"; };
+		4D77F6A81E03A4CC00495206 /* AddCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoriesViewController.h; sourceTree = "<group>"; };
+		4D77F6A91E03A4CC00495206 /* AddCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoriesViewController.m; sourceTree = "<group>"; };
+		4D8757A21DF4B4090071EDDB /* EarningsNExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarningsNExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8757A61DF4B4090071EDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D8757A81DF4B4090071EDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D8757A91DF4B4090071EDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D8757AF1DF4B4090071EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D8757B11DF4B4090071EDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D8757B41DF4B4090071EDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D8757B61DF4B40A0071EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8757BB1DF4B40A0071EDDB /* EarningsNExpensesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarningsNExpensesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8757BF1DF4B40A0071EDDB /* EarningsNExpensesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarningsNExpensesTests.m; sourceTree = "<group>"; };
+		4D8757C11DF4B40A0071EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8757C61DF4B40A0071EDDB /* EarningsNExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarningsNExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8757CA1DF4B40A0071EDDB /* EarningsNExpensesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarningsNExpensesUITests.m; sourceTree = "<group>"; };
+		4D8757CC1DF4B40A0071EDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE782661E0498500002BD32 /* EarningsDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarningsDashboardViewController.h; sourceTree = "<group>"; };
+		4DE782671E0498510002BD32 /* EarningsDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarningsDashboardViewController.m; sourceTree = "<group>"; };
+		4DE782691E050AC90002BD32 /* ScanReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanReceiptViewController.m; sourceTree = "<group>"; };
+		4DE7826A1E050AC90002BD32 /* ExpensesHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesHomeViewController.h; sourceTree = "<group>"; };
+		4DE7826B1E050AC90002BD32 /* ExpensesHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesHomeViewController.m; sourceTree = "<group>"; };
+		4DE7826C1E050AC90002BD32 /* ScanReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanReceiptViewController.h; sourceTree = "<group>"; };
+		4DE7829C1E050D540002BD32 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		4DE7829E1E050D610002BD32 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4DE782A01E050D6B0002BD32 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4DF4E4F31E051477002DFF6C /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		4DF4E4F51E0514A3002DFF6C /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		4DF4E4F71E051893002DFF6C /* AddExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddExpensesViewController.h; sourceTree = "<group>"; };
+		4DF4E4F81E051893002DFF6C /* AddExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddExpensesViewController.m; sourceTree = "<group>"; };
+		4DF4E4FA1E054864002DFF6C /* ViewExpensesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewExpensesController.h; sourceTree = "<group>"; };
+		4DF4E4FB1E054864002DFF6C /* ViewExpensesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewExpensesController.m; sourceTree = "<group>"; };
+		508232795D057CD4674F325A /* libPods-EarningsNExpenses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarningsNExpenses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C99EA398BB8D087913242ED /* Pods-EarningsNExpensesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpensesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpensesUITests/Pods-EarningsNExpensesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CB970AEEC74EF2E5F210B71 /* libPods-EarningsNExpensesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarningsNExpensesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802110DEEDEDF31C827CF83E /* Pods-EarningsNExpenses.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpenses.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpenses/Pods-EarningsNExpenses.release.xcconfig"; sourceTree = "<group>"; };
+		927413A855749D34F77E8D5C /* Pods-EarningsNExpensesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpensesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpensesTests/Pods-EarningsNExpensesTests.release.xcconfig"; sourceTree = "<group>"; };
+		C89DDA901875C2F9184C8775 /* Pods-EarningsNExpensesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarningsNExpensesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarningsNExpensesUITests/Pods-EarningsNExpensesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D87579F1DF4B4090071EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF4E4FD1E056E2B002DFF6C /* MessageUI.framework in Frameworks */,
+				4DF4E4F41E051477002DFF6C /* TesseractOCR.framework in Frameworks */,
+				4DE7829F1E050D610002BD32 /* CoreImage.framework in Frameworks */,
+				4DE7829D1E050D540002BD32 /* libstdc++.6.0.9.tbd in Frameworks */,
+				5FD31A8EB0668E0445F48784 /* libPods-EarningsNExpenses.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757B81DF4B40A0071EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F34E8F232A0A1B12FB8A7 /* libPods-EarningsNExpensesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757C31DF4B40A0071EDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA0455395C11AC02FC08CDE /* libPods-EarningsNExpensesUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FC7528440FCD6F29CC42BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35DBEC740150E1856B6E998D /* Pods-EarningsNExpenses.debug.xcconfig */,
+				802110DEEDEDF31C827CF83E /* Pods-EarningsNExpenses.release.xcconfig */,
+				24EF3EDD70F030EEE275DC5A /* Pods-EarningsNExpensesTests.debug.xcconfig */,
+				927413A855749D34F77E8D5C /* Pods-EarningsNExpensesTests.release.xcconfig */,
+				C89DDA901875C2F9184C8775 /* Pods-EarningsNExpensesUITests.debug.xcconfig */,
+				5C99EA398BB8D087913242ED /* Pods-EarningsNExpensesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D0B993A1DFDC0190017A4FF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4D0B99641DFF74710017A4FF /* greenButtonHighlight.png */,
+				4D0B99651DFF74710017A4FF /* orangeButtonHighlight.png */,
+				4D0B99601DFF73950017A4FF /* categories.png */,
+				4D0B99611DFF73950017A4FF /* wallet--minus.png */,
+				4D0B995C1DFF6FFC0017A4FF /* ewallet3.png */,
+				4D0B995D1DFF6FFC0017A4FF /* Money.png */,
+				4D0B995A1DFF6A5B0017A4FF /* startBtn.png */,
+				4D0B99581DFF699D0017A4FF /* wallet-plus.png */,
+				4D0B99521DFF690E0017A4FF /* expenses.png */,
+				4D0B99541DFF690E0017A4FF /* credit-cards.png */,
+				4D0B994B1DFE08580017A4FF /* logo.png */,
+				4D0B99491DFE05210017A4FF /* homepage1.png */,
+				4D0B99461DFE040C0017A4FF /* homepage.jpg */,
+				4D0B99431DFDD4240017A4FF /* signUp.png */,
+				4D0B993F1DFDC48D0017A4FF /* Login.png */,
+				4D0B993D1DFDC2040017A4FF /* registerNow.png */,
+				4D0B993B1DFDC0710017A4FF /* button_register-now.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		4D8757991DF4B4090071EDDB = {
+			isa = PBXGroup;
+			children = (
+				4D0B993A1DFDC0190017A4FF /* images */,
+				4D8757A41DF4B4090071EDDB /* EarningsNExpenses */,
+				4D8757BE1DF4B40A0071EDDB /* EarningsNExpensesTests */,
+				4D8757C91DF4B40A0071EDDB /* EarningsNExpensesUITests */,
+				4D8757A31DF4B4090071EDDB /* Products */,
+				21FC7528440FCD6F29CC42BB /* Pods */,
+				6A51FC6AD1A1B59C16F689D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D8757A31DF4B4090071EDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D8757A21DF4B4090071EDDB /* EarningsNExpenses.app */,
+				4D8757BB1DF4B40A0071EDDB /* EarningsNExpensesTests.xctest */,
+				4D8757C61DF4B40A0071EDDB /* EarningsNExpensesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D8757A41DF4B4090071EDDB /* EarningsNExpenses */ = {
+			isa = PBXGroup;
+			children = (
+				4DF4E4F51E0514A3002DFF6C /* tessdata */,
+				4DF4E4F31E051477002DFF6C /* TesseractOCR.framework */,
+				4DE782691E050AC90002BD32 /* ScanReceiptViewController.m */,
+				4DE7826A1E050AC90002BD32 /* ExpensesHomeViewController.h */,
+				4DE7826B1E050AC90002BD32 /* ExpensesHomeViewController.m */,
+				4DE7826C1E050AC90002BD32 /* ScanReceiptViewController.h */,
+				4D553CCF1E02281D00D85680 /* NSString+Validations.m */,
+				4D553CD01E02281D00D85680 /* NSString+Validations.h */,
+				4D0B99381DFADA770017A4FF /* GoogleService-Info.plist */,
+				4D0B99351DFAD78E0017A4FF /* ViewController.m */,
+				4D0B99361DFAD78E0017A4FF /* ViewController.h */,
+				4D0B992F1DFACFB90017A4FF /* SignInViewController.h */,
+				4D0B99301DFACFB90017A4FF /* SignUpViewController.h */,
+				4D0B99311DFACFB90017A4FF /* SignUpViewController.m */,
+				4D0B99321DFACFB90017A4FF /* SignInViewController.m */,
+				4D8757A81DF4B4090071EDDB /* AppDelegate.h */,
+				4D8757A91DF4B4090071EDDB /* AppDelegate.m */,
+				4D8757AE1DF4B4090071EDDB /* Main.storyboard */,
+				4D8757B11DF4B4090071EDDB /* Assets.xcassets */,
+				4D8757B31DF4B4090071EDDB /* LaunchScreen.storyboard */,
+				4D8757B61DF4B40A0071EDDB /* Info.plist */,
+				4D8757A51DF4B4090071EDDB /* Supporting Files */,
+				4D0B994D1DFE0D3E0017A4FF /* HomePageViewController.h */,
+				4D0B994E1DFE0D3E0017A4FF /* HomePageViewController.m */,
+				4D0B99681DFF879B0017A4FF /* UpadateProfileViewController.h */,
+				4D0B99691DFF879B0017A4FF /* UpadateProfileViewController.m */,
+				4D77F69F1E024FA200495206 /* EarningsTableViewController.h */,
+				4D77F6A01E024FA200495206 /* EarningsTableViewController.m */,
+				4D77F6A21E0394FA00495206 /* EarningsDetailViewController.h */,
+				4D77F6A31E0394FA00495206 /* EarningsDetailViewController.m */,
+				4D77F6A51E03A1F800495206 /* AddIncomeViewController.h */,
+				4D77F6A61E03A1F800495206 /* AddIncomeViewController.m */,
+				4D77F6A81E03A4CC00495206 /* AddCategoriesViewController.h */,
+				4D77F6A91E03A4CC00495206 /* AddCategoriesViewController.m */,
+				4DE782661E0498500002BD32 /* EarningsDashboardViewController.h */,
+				4DE782671E0498510002BD32 /* EarningsDashboardViewController.m */,
+				4DF4E4F71E051893002DFF6C /* AddExpensesViewController.h */,
+				4DF4E4F81E051893002DFF6C /* AddExpensesViewController.m */,
+				4DF4E4FA1E054864002DFF6C /* ViewExpensesController.h */,
+				4DF4E4FB1E054864002DFF6C /* ViewExpensesController.m */,
+			);
+			path = EarningsNExpenses;
+			sourceTree = "<group>";
+		};
+		4D8757A51DF4B4090071EDDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D8757A61DF4B4090071EDDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D8757BE1DF4B40A0071EDDB /* EarningsNExpensesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D8757BF1DF4B40A0071EDDB /* EarningsNExpensesTests.m */,
+				4D8757C11DF4B40A0071EDDB /* Info.plist */,
+			);
+			path = EarningsNExpensesTests;
+			sourceTree = "<group>";
+		};
+		4D8757C91DF4B40A0071EDDB /* EarningsNExpensesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D8757CA1DF4B40A0071EDDB /* EarningsNExpensesUITests.m */,
+				4D8757CC1DF4B40A0071EDDB /* Info.plist */,
+			);
+			path = EarningsNExpensesUITests;
+			sourceTree = "<group>";
+		};
+		6A51FC6AD1A1B59C16F689D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE782A01E050D6B0002BD32 /* MessageUI.framework */,
+				4DE7829E1E050D610002BD32 /* CoreImage.framework */,
+				4DE7829C1E050D540002BD32 /* libstdc++.6.0.9.tbd */,
+				508232795D057CD4674F325A /* libPods-EarningsNExpenses.a */,
+				5CB970AEEC74EF2E5F210B71 /* libPods-EarningsNExpensesTests.a */,
+				432B1F776722C8662099FDA3 /* libPods-EarningsNExpensesUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D8757A11DF4B4090071EDDB /* EarningsNExpenses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8757CF1DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpenses" */;
+			buildPhases = (
+				1558041BE2BEE538627F3166 /* [CP] Check Pods Manifest.lock */,
+				4D87579E1DF4B4090071EDDB /* Sources */,
+				4D87579F1DF4B4090071EDDB /* Frameworks */,
+				4D8757A01DF4B4090071EDDB /* Resources */,
+				AE69B24704C22C4C590C0EA1 /* [CP] Embed Pods Frameworks */,
+				8E31361B64910DF305EF7C78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarningsNExpenses;
+			productName = EarningsNExpenses;
+			productReference = 4D8757A21DF4B4090071EDDB /* EarningsNExpenses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D8757BA1DF4B40A0071EDDB /* EarningsNExpensesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8757D21DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpensesTests" */;
+			buildPhases = (
+				0D534B43A0B15958CE1CA0E2 /* [CP] Check Pods Manifest.lock */,
+				4D8757B71DF4B40A0071EDDB /* Sources */,
+				4D8757B81DF4B40A0071EDDB /* Frameworks */,
+				4D8757B91DF4B40A0071EDDB /* Resources */,
+				CAD4F6FFF7898EC47FC03690 /* [CP] Embed Pods Frameworks */,
+				F25E51FB032CC3C5C1A5333A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8757BD1DF4B40A0071EDDB /* PBXTargetDependency */,
+			);
+			name = EarningsNExpensesTests;
+			productName = EarningsNExpensesTests;
+			productReference = 4D8757BB1DF4B40A0071EDDB /* EarningsNExpensesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D8757C51DF4B40A0071EDDB /* EarningsNExpensesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8757D51DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpensesUITests" */;
+			buildPhases = (
+				9B61996417F9C35E4DFA58A2 /* [CP] Check Pods Manifest.lock */,
+				4D8757C21DF4B40A0071EDDB /* Sources */,
+				4D8757C31DF4B40A0071EDDB /* Frameworks */,
+				4D8757C41DF4B40A0071EDDB /* Resources */,
+				F0D895439900E1A03D5E141C /* [CP] Embed Pods Frameworks */,
+				954A02AD5A448F223262FFF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8757C81DF4B40A0071EDDB /* PBXTargetDependency */,
+			);
+			name = EarningsNExpensesUITests;
+			productName = EarningsNExpensesUITests;
+			productReference = 4D8757C61DF4B40A0071EDDB /* EarningsNExpensesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D87579A1DF4B4090071EDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sruthi Ravula";
+				TargetAttributes = {
+					4D8757A11DF4B4090071EDDB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4D8757BA1DF4B40A0071EDDB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D8757A11DF4B4090071EDDB;
+					};
+					4D8757C51DF4B40A0071EDDB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D8757A11DF4B4090071EDDB;
+					};
+				};
+			};
+			buildConfigurationList = 4D87579D1DF4B4090071EDDB /* Build configuration list for PBXProject "EarningsNExpenses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D8757991DF4B4090071EDDB;
+			productRefGroup = 4D8757A31DF4B4090071EDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8757A11DF4B4090071EDDB /* EarningsNExpenses */,
+				4D8757BA1DF4B40A0071EDDB /* EarningsNExpensesTests */,
+				4D8757C51DF4B40A0071EDDB /* EarningsNExpensesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D8757A01DF4B4090071EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0B995F1DFF6FFD0017A4FF /* Money.png in Resources */,
+				4D0B995E1DFF6FFC0017A4FF /* ewallet3.png in Resources */,
+				4D0B993C1DFDC0710017A4FF /* button_register-now.png in Resources */,
+				4DF4E4F61E0514A3002DFF6C /* tessdata in Resources */,
+				4D0B99621DFF73950017A4FF /* categories.png in Resources */,
+				4D0B995B1DFF6A5B0017A4FF /* startBtn.png in Resources */,
+				4D8757B51DF4B4090071EDDB /* LaunchScreen.storyboard in Resources */,
+				4D0B994C1DFE08580017A4FF /* logo.png in Resources */,
+				4D0B99591DFF699D0017A4FF /* wallet-plus.png in Resources */,
+				4D0B99441DFDD4240017A4FF /* signUp.png in Resources */,
+				4D0B99551DFF690E0017A4FF /* expenses.png in Resources */,
+				4D0B99401DFDC48D0017A4FF /* Login.png in Resources */,
+				4D0B99391DFADA770017A4FF /* GoogleService-Info.plist in Resources */,
+				4D0B994A1DFE05210017A4FF /* homepage1.png in Resources */,
+				4D0B993E1DFDC2040017A4FF /* registerNow.png in Resources */,
+				4D0B99631DFF73950017A4FF /* wallet--minus.png in Resources */,
+				4D8757B21DF4B4090071EDDB /* Assets.xcassets in Resources */,
+				4D0B99661DFF74710017A4FF /* greenButtonHighlight.png in Resources */,
+				4D8757B01DF4B4090071EDDB /* Main.storyboard in Resources */,
+				4D0B99571DFF690E0017A4FF /* credit-cards.png in Resources */,
+				4D0B99671DFF74710017A4FF /* orangeButtonHighlight.png in Resources */,
+				4D0B99481DFE040D0017A4FF /* homepage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757B91DF4B40A0071EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757C41DF4B40A0071EDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D534B43A0B15958CE1CA0E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1558041BE2BEE538627F3166 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E31361B64910DF305EF7C78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpenses/Pods-EarningsNExpenses-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954A02AD5A448F223262FFF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpensesUITests/Pods-EarningsNExpensesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B61996417F9C35E4DFA58A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE69B24704C22C4C590C0EA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpenses/Pods-EarningsNExpenses-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD4F6FFF7898EC47FC03690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpensesTests/Pods-EarningsNExpensesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D895439900E1A03D5E141C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpensesUITests/Pods-EarningsNExpensesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25E51FB032CC3C5C1A5333A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EarningsNExpensesTests/Pods-EarningsNExpensesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D87579E1DF4B4090071EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0B99341DFACFB90017A4FF /* SignInViewController.m in Sources */,
+				4D8757AA1DF4B4090071EDDB /* AppDelegate.m in Sources */,
+				4D77F6A41E0394FA00495206 /* EarningsDetailViewController.m in Sources */,
+				4D553CD11E02281D00D85680 /* NSString+Validations.m in Sources */,
+				4D0B996A1DFF879B0017A4FF /* UpadateProfileViewController.m in Sources */,
+				4D0B994F1DFE0D3E0017A4FF /* HomePageViewController.m in Sources */,
+				4DE782681E0498510002BD32 /* EarningsDashboardViewController.m in Sources */,
+				4D77F6AA1E03A4CC00495206 /* AddCategoriesViewController.m in Sources */,
+				4D0B99331DFACFB90017A4FF /* SignUpViewController.m in Sources */,
+				4DF4E4F91E051893002DFF6C /* AddExpensesViewController.m in Sources */,
+				4D8757A71DF4B4090071EDDB /* main.m in Sources */,
+				4D77F6A71E03A1F800495206 /* AddIncomeViewController.m in Sources */,
+				4D0B99371DFAD78E0017A4FF /* ViewController.m in Sources */,
+				4DE7826D1E050ACA0002BD32 /* ScanReceiptViewController.m in Sources */,
+				4DE7826E1E050ACA0002BD32 /* ExpensesHomeViewController.m in Sources */,
+				4DF4E4FC1E054864002DFF6C /* ViewExpensesController.m in Sources */,
+				4D77F6A11E024FA200495206 /* EarningsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757B71DF4B40A0071EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8757C01DF4B40A0071EDDB /* EarningsNExpensesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8757C21DF4B40A0071EDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8757CB1DF4B40A0071EDDB /* EarningsNExpensesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D8757BD1DF4B40A0071EDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8757A11DF4B4090071EDDB /* EarningsNExpenses */;
+			targetProxy = 4D8757BC1DF4B40A0071EDDB /* PBXContainerItemProxy */;
+		};
+		4D8757C81DF4B40A0071EDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D8757A11DF4B4090071EDDB /* EarningsNExpenses */;
+			targetProxy = 4D8757C71DF4B40A0071EDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D8757AE1DF4B4090071EDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8757AF1DF4B4090071EDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D8757B31DF4B4090071EDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D8757B41DF4B4090071EDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D8757CD1DF4B40A0071EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpenses";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D8757CE1DF4B40A0071EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpenses";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D8757D01DF4B40A0071EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DBEC740150E1856B6E998D /* Pods-EarningsNExpenses.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EarningsNExpenses",
+				);
+				INFOPLIST_FILE = EarningsNExpenses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GTMOAuth2\"",
+					"-l\"GTMSessionFetcher\"",
+					"-l\"GoogleToolboxForMac\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseStorage\"",
+					"-framework",
+					"\"GGLCore\"",
+					"-framework",
+					"\"GGLSignIn\"",
+					"-framework",
+					"\"GoogleAppUtilities\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpenses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D8757D11DF4B40A0071EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802110DEEDEDF31C827CF83E /* Pods-EarningsNExpenses.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EarningsNExpenses",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = EarningsNExpenses/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"GTMOAuth2\"",
+					"-l\"GTMSessionFetcher\"",
+					"-l\"GoogleToolboxForMac\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseStorage\"",
+					"-framework",
+					"\"GGLCore\"",
+					"-framework",
+					"\"GGLSignIn\"",
+					"-framework",
+					"\"GoogleAppUtilities\"",
+					"-framework",
+					"\"GoogleInterchangeUtilities\"",
+					"-framework",
+					"\"GoogleSignIn\"",
+					"-framework",
+					"\"GoogleSymbolUtilities\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpenses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D8757D31DF4B40A0071EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EF3EDD70F030EEE275DC5A /* Pods-EarningsNExpensesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarningsNExpensesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpensesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarningsNExpenses.app/EarningsNExpenses";
+			};
+			name = Debug;
+		};
+		4D8757D41DF4B40A0071EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927413A855749D34F77E8D5C /* Pods-EarningsNExpensesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarningsNExpensesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpensesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarningsNExpenses.app/EarningsNExpenses";
+			};
+			name = Release;
+		};
+		4D8757D61DF4B40A0071EDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89DDA901875C2F9184C8775 /* Pods-EarningsNExpensesUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = EarningsNExpensesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpensesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarningsNExpenses;
+			};
+			name = Debug;
+		};
+		4D8757D71DF4B40A0071EDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C99EA398BB8D087913242ED /* Pods-EarningsNExpensesUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = EarningsNExpensesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sruthi-Ravula.EarningsNExpensesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EarningsNExpenses;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D87579D1DF4B4090071EDDB /* Build configuration list for PBXProject "EarningsNExpenses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8757CD1DF4B40A0071EDDB /* Debug */,
+				4D8757CE1DF4B40A0071EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8757CF1DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpenses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8757D01DF4B40A0071EDDB /* Debug */,
+				4D8757D11DF4B40A0071EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8757D21DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpensesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8757D31DF4B40A0071EDDB /* Debug */,
+				4D8757D41DF4B40A0071EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8757D51DF4B40A0071EDDB /* Build configuration list for PBXNativeTarget "EarningsNExpensesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8757D61DF4B40A0071EDDB /* Debug */,
+				4D8757D71DF4B40A0071EDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D87579A1DF4B4090071EDDB /* Project object */;
+}
